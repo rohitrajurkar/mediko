@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mediko.newmediko">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/medikoapp"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/medikoplus"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NewMediko">
+        <activity android:name=".Utility.EmailActivity"></activity>
+        <activity android:name=".Hospital.HosUploadActivity" />
+        <activity android:name=".Hospital.HosSpecialityActivity" />
+        <activity android:name=".Hospital.HosSettingActivity" />
+        <activity android:name=".Hospital.HosServiceActivity" />
+        <activity android:name=".Hospital.HosDocProfileActivity" />
+        <activity android:name=".Hospital.HosPatientAppointActivity" />
+        <activity android:name=".Hospital.HosNotificationActivity" />
+        <activity android:name=".Hospital.HosProfileActivity" />
+        <activity android:name=".Hospital.HospitalActivity" />
+        <activity android:name=".Hospital.HosDocTimeActivity" />
+        <activity android:name=".Hospital.HosDocDetailActivity" />
+        <activity android:name=".Hospital.HosDoctorActivity" />
+        <activity android:name=".Hospital.HosDetailActivity" />
+        <activity android:name=".Hospital.HosTimingActivity" />
+        <activity android:name=".Hospital.HosAccountActivity" />
+        <activity android:name=".Hospital.HosStartActivity" />
+        <activity android:name=".Hospital.HosRegisterActivity" />
+        <activity android:name=".Hospital.HosLoginActivity" />
+        <activity android:name=".DivisionActivity" />
+        <activity android:name=".PlashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ClinicTimingActivity" />
+        <activity android:name=".TimingActivity" />
+        <activity android:name=".SpecalityActivity" />
+        <activity android:name=".RegistrationActivity" />
+        <activity android:name=".DocumentActivity" />
+        <activity android:name=".DocTimeActivity" />
+        <activity android:name=".DocDetailActivity" />
+        <activity android:name=".ClinicInfoActivity" />
+        <activity android:name=".ClinicActivity" />
+        <activity android:name=".AccountActivity" />
+        <activity android:name=".SettingActivity" />
+        <activity android:name=".PatientsAppointmentActivity" />
+        <activity android:name=".DetailActivity" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".NotificationActivity" />
+        <activity android:name=".PhoneActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".AppActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
